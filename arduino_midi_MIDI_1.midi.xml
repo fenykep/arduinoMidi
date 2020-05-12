@@ -9,7 +9,7 @@
         <scriptfiles/>
         <controls>
             <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
                 <key>parameter1</key>
                 <description>Pleeeease.</description>
                 <status>0xB1</status>
@@ -19,11 +19,21 @@
                 </options>
             </control>
             <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
                 <key>parameter3</key>
-                <description>MIDI Learned from 1870 messages.</description>
+                <description>Yeeeehaw</description>
                 <status>0xB0</status>
                 <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
+                <key>enabled</key>
+                <description>Voooouuuom</description>
+                <status>0x92</status>
+                <midino>0x2A</midino>
                 <options>
                     <normal/>
                 </options>
