@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="2.2" schemaVersion="1">
+    <info>
+        <name>Arduino XY pad</name>
+        <author>Fenykep</author>
+        <description>Two inputs, nothing fancy, please work</description>
+    </info>
+    <controller id="arduino_midi">
+        <scriptfiles/>
+        <controls>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Pleeeease.</description>
+                <status>0xB1</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter3</key>
+                <description>MIDI Learned from 1870 messages.</description>
+                <status>0xB0</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
